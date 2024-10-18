@@ -5,7 +5,9 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "types": ["jest"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true
   },
   "include": [
     "src/**/*"
